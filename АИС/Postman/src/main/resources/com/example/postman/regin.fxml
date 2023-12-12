@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="281.0" prefWidth="449.0" style="-fx-background-color: #696969;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.postman.Regin">
+   <children>
+      <Label alignment="CENTER" layoutX="128.0" layoutY="14.0" prefHeight="45.0" prefWidth="194.0" text="Postman">
+         <font>
+            <Font name="Cambria Bold" size="37.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color green="0.6595238447189331" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006711409395973154">
+                     <color>
+                        <Color green="0.6595238447189331" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="1.0" blue="0.05714285746216774" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button layoutX="177.0" layoutY="222.0" mnemonicParsing="false" onAction="#inProg" style="-fx-background-color: transparent;" text="Войти" textFill="WHITE" underline="true">
+         <font>
+            <Font name="Impact" size="24.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="password" alignment="CENTER" layoutX="57.0" layoutY="151.0" prefHeight="36.0" prefWidth="335.0" promptText="Пароль" style="-fx-background-color: transparent; -fx-border-color: #C0C0C0; -fx-text-fill: #FFFFFF;">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </PasswordField>
+      <TextField fx:id="login" alignment="CENTER" layoutX="58.0" layoutY="94.0" prefHeight="36.0" prefWidth="335.0" promptText="Логин" style="-fx-background-color: transparent; -fx-border-color: #C0C0C0; -fx-text-fill: #FFFFFF;">
+         <font>
+            <Font name="Cambria" size="18.0" />
+         </font>
+      </TextField>
+      <Button layoutX="364.0" layoutY="2.0" mnemonicParsing="false" onAction="#regProg" style="-fx-background-color: transparent;" text="Регистрация" textFill="WHITE" underline="true" />
+   </children>
+</AnchorPane>
