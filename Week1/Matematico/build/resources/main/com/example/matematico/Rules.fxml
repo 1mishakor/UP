@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="470.0" prefWidth="514.0" style="-fx-background-color: #060048;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.matematico.Controller.RulesController">
+   <children>
+      <Button fx:id="buttonBack" disable="true" layoutY="431.0" mnemonicParsing="false" onAction="#back" style="-fx-background-color: transparent;" text="&lt;- Назад" textFill="#e5ff00">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="image" fitHeight="396.0" fitWidth="483.0" layoutX="16.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Rules/rules.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="goButton" layoutX="420.0" layoutY="431.0" mnemonicParsing="false" onAction="#go" style="-fx-background-color: transparent;" text="Далее-&gt;" textFill="#e5ff00">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button disable="true" layoutX="195.0" layoutY="431.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="-&gt; Меню &lt;-" textFill="#e5ff00" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="737.0" style="-fx-background-color: #060048;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.matematico.Controller.HelloController">
+   <children>
+      <ImageView fitHeight="474.0" fitWidth="271.0" layoutX="78.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Rectangle1.png" />
+         </image>
+      </ImageView>
+      <GridPane fx:id="Player" alignment="CENTER" layoutX="100.0" layoutY="124.0" prefHeight="229.0" prefWidth="227.0" style="-fx-background-color: #FFD700; -fx-border-color: #000000;">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="l1" alignment="CENTER" contentDisplay="CENTER" prefHeight="84.0" prefWidth="96.0" style="-fx-border-color: #000000;" textAlignment="CENTER" />
+            <Label fx:id="l2" alignment="CENTER" contentDisplay="CENTER" prefHeight="69.0" prefWidth="113.0" style="-fx-border-color: #000000;" GridPane.columnIndex="1" />
+            <Label fx:id="l3" alignment="CENTER" contentDisplay="CENTER" prefHeight="61.0" prefWidth="93.0" style="-fx-border-color: #000000;" GridPane.columnIndex="2" />
+            <Label fx:id="l4" alignment="CENTER" contentDisplay="CENTER" prefHeight="64.0" prefWidth="59.0" style="-fx-border-color: #000000;" GridPane.columnIndex="3" />
+            <Label fx:id="l5" alignment="CENTER" contentDisplay="CENTER" prefHeight="76.0" prefWidth="73.0" style="-fx-border-color: #000000;" GridPane.columnIndex="4" />
+            <Label fx:id="l6" alignment="CENTER" contentDisplay="CENTER" prefHeight="98.0" prefWidth="106.0" style="-fx-border-color: #000000;" GridPane.rowIndex="1" />
+            <Label fx:id="l7" alignment="CENTER" contentDisplay="CENTER" prefHeight="111.0" prefWidth="117.0" style="-fx-border-color: #000000;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="l8" alignment="CENTER" contentDisplay="CENTER" prefHeight="92.0" prefWidth="85.0" style="-fx-border-color: #000000;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Label fx:id="l9" alignment="CENTER" contentDisplay="CENTER" prefHeight="87.0" prefWidth="101.0" style="-fx-border-color: #000000;" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Label fx:id="l10" alignment="CENTER" contentDisplay="CENTER" prefHeight="58.0" prefWidth="71.0" style="-fx-border-color: #000000;" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Label fx:id="l11" alignment="CENTER" contentDisplay="CENTER" prefHeight="70.0" prefWidth="87.0" style="-fx-border-color: #000000;" GridPane.rowIndex="2" />
+            <Label fx:id="l12" alignment="CENTER" contentDisplay="CENTER" prefHeight="85.0" prefWidth="106.0" style="-fx-border-color: #000000;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="l13" alignment="CENTER" contentDisplay="CENTER" prefHeight="85.0" prefWidth="90.0" style="-fx-border-color: #000000;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Label fx:id="l14" alignment="CENTER" contentDisplay="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: #000000;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Label fx:id="l15" alignment="CENTER" contentDisplay="CENTER" prefHeight="122.0" prefWidth="100.0" style="-fx-border-color: #000000;" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Label fx:id="l16" alignment="CENTER" contentDisplay="CENTER" prefHeight="189.0" prefWidth="225.0" style="-fx-border-color: #000000;" GridPane.rowIndex="3" />
+            <Label fx:id="l17" alignment="CENTER" contentDisplay="CENTER" prefHeight="112.0" prefWidth="116.0" style="-fx-border-color: #000000;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label fx:id="l18" alignment="CENTER" contentDisplay="CENTER" prefHeight="116.0" prefWidth="148.0" style="-fx-border-color: #000000;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Label fx:id="l19" alignment="CENTER" contentDisplay="CENTER" prefHeight="67.0" prefWidth="97.0" style="-fx-border-color: #000000;" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Label fx:id="l20" alignment="CENTER" contentDisplay="CENTER" prefHeight="100.0" prefWidth="129.0" style="-fx-border-color: #000000;" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Label fx:id="l21" alignment="CENTER" contentDisplay="CENTER" prefHeight="106.0" prefWidth="152.0" style="-fx-border-color: #000000;" GridPane.rowIndex="4" />
+            <Label fx:id="l22" alignment="CENTER" contentDisplay="CENTER" prefHeight="79.0" prefWidth="114.0" style="-fx-border-color: #000000;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label fx:id="l23" alignment="CENTER" contentDisplay="CENTER" prefHeight="73.0" prefWidth="108.0" style="-fx-border-color: #000000;" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Label fx:id="l24" alignment="CENTER" contentDisplay="CENTER" prefHeight="60.0" prefWidth="76.0" style="-fx-border-color: #000000;" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Label fx:id="l25" alignment="CENTER" contentDisplay="CENTER" prefHeight="82.0" prefWidth="91.0" style="-fx-border-color: #000000;" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+      <ImageView fitHeight="337.0" fitWidth="271.0" layoutX="389.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Rectangle2.png" />
+         </image>
+      </ImageView>
+      <GridPane fx:id="Computer" alignment="CENTER" layoutX="411.0" layoutY="124.0" prefHeight="229.0" prefWidth="227.0" style="-fx-background-color: #00FFFF; -fx-border-color: #000000;">
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label fx:id="l1c" alignment="CENTER" contentDisplay="CENTER" prefHeight="84.0" prefWidth="96.0" style="-fx-border-color: #000000;" textAlignment="CENTER" />
+            <Label fx:id="l2c" alignment="CENTER" contentDisplay="CENTER" prefHeight="69.0" prefWidth="113.0" style="-fx-border-color: #000000;" GridPane.columnIndex="1" />
+            <Label fx:id="l3c" alignment="CENTER" contentDisplay="CENTER" prefHeight="61.0" prefWidth="93.0" style="-fx-border-color: #000000;" GridPane.columnIndex="2" />
+            <Label fx:id="l4c" alignment="CENTER" contentDisplay="CENTER" prefHeight="64.0" prefWidth="59.0" style="-fx-border-color: #000000;" GridPane.columnIndex="3" />
+            <Label fx:id="l5c" alignment="CENTER" contentDisplay="CENTER" prefHeight="76.0" prefWidth="73.0" style="-fx-border-color: #000000;" GridPane.columnIndex="4" />
+            <Label fx:id="l6c" alignment="CENTER" contentDisplay="CENTER" prefHeight="98.0" prefWidth="106.0" style="-fx-border-color: #000000;" GridPane.rowIndex="1" />
+            <Label fx:id="l7c" alignment="CENTER" contentDisplay="CENTER" prefHeight="111.0" prefWidth="117.0" style="-fx-border-color: #000000;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="l8c" alignment="CENTER" contentDisplay="CENTER" prefHeight="92.0" prefWidth="85.0" style="-fx-border-color: #000000;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Label fx:id="l9c" alignment="CENTER" contentDisplay="CENTER" prefHeight="87.0" prefWidth="101.0" style="-fx-border-color: #000000;" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Label fx:id="l10c" alignment="CENTER" contentDisplay="CENTER" prefHeight="58.0" prefWidth="71.0" style="-fx-border-color: #000000;" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Label fx:id="l11c" alignment="CENTER" contentDisplay="CENTER" prefHeight="70.0" prefWidth="87.0" style="-fx-border-color: #000000;" GridPane.rowIndex="2" />
+            <Label fx:id="l12c" alignment="CENTER" contentDisplay="CENTER" prefHeight="85.0" prefWidth="106.0" style="-fx-border-color: #000000;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="l13c" alignment="CENTER" contentDisplay="CENTER" prefHeight="85.0" prefWidth="90.0" style="-fx-border-color: #000000;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Label fx:id="l14c" alignment="CENTER" contentDisplay="CENTER" prefHeight="70.0" prefWidth="70.0" style="-fx-border-color: #000000;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Label fx:id="l15c" alignment="CENTER" contentDisplay="CENTER" prefHeight="122.0" prefWidth="100.0" style="-fx-border-color: #000000;" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Label fx:id="l16c" alignment="CENTER" contentDisplay="CENTER" prefHeight="189.0" prefWidth="225.0" style="-fx-border-color: #000000;" GridPane.rowIndex="3" />
+            <Label fx:id="l17c" alignment="CENTER" contentDisplay="CENTER" prefHeight="112.0" prefWidth="116.0" style="-fx-border-color: #000000;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label fx:id="l18c" alignment="CENTER" contentDisplay="CENTER" prefHeight="116.0" prefWidth="148.0" style="-fx-border-color: #000000;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Label fx:id="l19c" alignment="CENTER" contentDisplay="CENTER" prefHeight="67.0" prefWidth="97.0" style="-fx-border-color: #000000;" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Label fx:id="l20c" alignment="CENTER" contentDisplay="CENTER" prefHeight="100.0" prefWidth="129.0" style="-fx-border-color: #000000;" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Label fx:id="l21c" alignment="CENTER" contentDisplay="CENTER" prefHeight="106.0" prefWidth="152.0" style="-fx-border-color: #000000;" GridPane.rowIndex="4" />
+            <Label fx:id="l22c" alignment="CENTER" contentDisplay="CENTER" prefHeight="79.0" prefWidth="114.0" style="-fx-border-color: #000000;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label fx:id="l23c" alignment="CENTER" contentDisplay="CENTER" prefHeight="73.0" prefWidth="108.0" style="-fx-border-color: #000000;" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Label fx:id="l24c" alignment="CENTER" contentDisplay="CENTER" prefHeight="60.0" prefWidth="76.0" style="-fx-border-color: #000000;" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Label fx:id="l25c" alignment="CENTER" contentDisplay="CENTER" prefHeight="82.0" prefWidth="91.0" style="-fx-border-color: #000000;" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+      <ImageView fitHeight="54.0" fitWidth="558.0" layoutX="86.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Frame3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="109.0" fitWidth="109.0" layoutX="159.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Player.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="109.0" fitWidth="109.0" layoutX="470.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image/Comp.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="yacubovichWord" layoutX="146.0" layoutY="37.0" prefHeight="39.0" prefWidth="482.0" text="Привет">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Label>
+      <Button mnemonicParsing="false" onAction="#onMenu" style="-fx-background-color: #FF0000;" text="В меню" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
